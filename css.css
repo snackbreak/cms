@@ -1,0 +1,41 @@
+
+/* Scaring Mountains CSS Magic */
+
+
+/*base values*/
+body {
+	margin: 0;
+	background-color: #fff;
+}
+body, p, a, h1, h2, h3 {
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: 400;
+	color: #111;
+	padding: 0;
+	margin: 0 0 0 0;
+}
+a {
+	text-decoration: none;
+}
+p > a:hover {
+	text-decoration: underline;
+}
+h1 {
+	font-size: 1.5em;
+	font-weight: 700;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+h2 {
+	font-size: 1em;
+	/*text-transform: uppercase; */
+	font-weight: 700;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+p {
+	font-size: 0.9em;
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
